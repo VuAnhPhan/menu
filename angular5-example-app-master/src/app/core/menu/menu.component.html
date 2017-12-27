@@ -1,0 +1,29 @@
+<ul class="form">
+
+
+  <li>
+    <mat-icon>search</mat-icon>
+    <mat-form-field class="search">
+      <input matInput placeholder="Tìm kiếm báo cáo và trợ giá">
+    </mat-form-field>
+  </li>
+  <li *ngFor="let menu of menus">
+    <a href=""> {{ menu.name }}</a>
+  </li>
+
+  <h6>Báo cáo</h6>
+
+  <li *ngFor="let menuss of menus1">
+  <a href="">{{menuss.name}}</a>
+  </li>
+
+  <br>
+  <br>
+  <br>
+  <li *ngFor="let menusss of menus2">
+    <a href="">{{menusss.name}}</a>
+  </li>
+
+
+
+</ul>
